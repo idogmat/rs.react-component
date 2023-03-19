@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.prettierrc.js
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
+

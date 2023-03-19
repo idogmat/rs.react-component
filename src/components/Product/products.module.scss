@@ -1,0 +1,24 @@
+.main {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+.imgBlock {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  height: 150px;
+  width: 150px;
+}
+.product-detail {
+  padding: 0 2rem;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 140%;
+}
