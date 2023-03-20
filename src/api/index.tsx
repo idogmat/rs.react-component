@@ -23,4 +23,4 @@ class MyAxiosInstance {
   }
 }
 
-export default new MyAxiosInstance(" https://fakestoreapi.com/");
+export default new MyAxiosInstance("https://fakestoreapi.com/");

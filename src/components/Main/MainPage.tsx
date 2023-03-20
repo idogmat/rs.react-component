@@ -24,7 +24,7 @@ export class MainPage extends React.Component<unknown, IState> {
   getProducts = async (): Promise<{ data: IProduct[] }> => {
     return await Instance.get("products");
   };
-  async UNSAFE_componentWillMount() {
+  async componentWillMount() {
     const { data } = await this.getProducts();
     this.setState((state) => ({ ...state, products: data }));
   }

@@ -6,6 +6,7 @@ import { Paths } from "./common";
 import { Header } from "./components/Header/Header";
 import { NotFound } from "./components/NotFound";
 import { MainPage } from "./components/Main/MainPage";
+import { Forms } from "./components/Forms";
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <Header />
         <Routes>
           <Route path={Paths.CURRENT} element={<MainPage />} />
+          <Route path={Paths.FORMS} element={<Forms />} />
           <Route path={Paths.ABOUT} element={<AboutAs />} />
           <Route path={Paths.NOT_FOUND} element={<NotFound />} />
           <Route path={"/*"} element={<Navigate to={Paths.NOT_FOUND} />} />

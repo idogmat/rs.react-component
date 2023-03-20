@@ -14,6 +14,9 @@ export class Header extends React.Component {
           <li>
             <Link to={Paths.ABOUT}>About</Link>
           </li>
+          <li>
+            <Link to={Paths.FORMS}>Forms</Link>
+          </li>
         </ul>
       </div>
     );
